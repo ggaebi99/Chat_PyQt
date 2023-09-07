@@ -38,5 +38,41 @@
 ## 마지막 해결과제
 보안에 대한 부분을 처리를 해주어야 하고, 동작에 있어서 원하는 동작이 아닐 때 버그가 나는 부분도 아직 많기 때문에 완성이라고 할 수는 없다.
 ***
+## 동작사진
+### 처음프로그램을 실행한 화면
+유저가 로그인 정보를 입력한다.
 
+![initail](https://github.com/ggaebi99/Chat_PyQt/assets/127026645/a3ee74f5-c84b-4dfa-804d-eff9d6bf66c2)
 
+로그인 실패 시
+
+![login_fail](https://github.com/ggaebi99/Chat_PyQt/assets/127026645/644b4c57-8224-496c-947c-91b27cb7489a)
+
+### 로그인 성공 시
+유저는 방만들기, 새로고침(완전한 실시간이 이루어 지지 않음으로 수동처리로 하게 되었다.)이 가능하다.
+ 
+![login_correct](https://github.com/ggaebi99/Chat_PyQt/assets/127026645/a6ceb3f3-31dc-47b9-8140-5eff1be3a24f)
+
+### 방만들기 선택 시
+유저는 방 이름, 인원 제한, 비밀번호 여부, 비밀번호를 설정할 수 있고, 비밀방으로 선택되지 않으면 비밀번호는 입력이 불가능 하게 처리해주었다.
+
+![make_room_click](https://github.com/ggaebi99/Chat_PyQt/assets/127026645/c8251819-a303-4d62-a716-be518a5a537f)
+
+### 방만들기 완료 시
+
+![make_room](https://github.com/ggaebi99/Chat_PyQt/assets/127026645/ac61eee7-3ae1-4ee7-a874-313394fba2e2)
+
+다른유저가 입장, 퇴장 시 알려준다.
+
+![enter_another_user](https://github.com/ggaebi99/Chat_PyQt/assets/127026645/16d09f81-6d0f-47ff-8f43-77f6c125f598)
+
+![user_out](https://github.com/ggaebi99/Chat_PyQt/assets/127026645/ed1f5a4d-4322-4f26-9e9c-1ee715582470)
+
+### 이미 존재하는 방에 입장 시 
+인원 수, 비밀번호 여부, 비밀번호를 검사하여 그에 맞는 동작을 진행한다.
+
+![have_password](https://github.com/ggaebi99/Chat_PyQt/assets/127026645/8245db4b-2bf1-4523-9f92-555c978538c0)
+
+![no_password](https://github.com/ggaebi99/Chat_PyQt/assets/127026645/0a968bb8-438a-4b70-9fd6-c79eade67688)
+
+![user_full](https://github.com/ggaebi99/Chat_PyQt/assets/127026645/e3c47e87-3fe3-45fd-94d9-9f90e12cbad1)
