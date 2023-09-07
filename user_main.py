@@ -22,19 +22,19 @@ def resource_path(relative_path):
     base_path = getattr(sys, "_MEIPASS", os.path.dirname(os.path.abspath(__file__)))
     return os.path.join(base_path, relative_path)
 
-form_login = resource_path('user_login.ui')
+form_login = resource_path('ui/user_login.ui')
 form_loginwindow = uic.loadUiType(form_login)[0]
 
-form_usermain = resource_path('user_main.ui')
+form_usermain = resource_path('ui/user_main.ui')
 form_usermainwindow = uic.loadUiType(form_usermain)[0]
 
-form_makeroom = resource_path('user_room_make.ui')
+form_makeroom = resource_path('ui/user_room_make.ui')
 form_makeroomwindow = uic.loadUiType(form_makeroom)[0]
 
-form_roompasswordcheck = resource_path('room_passwd.ui')
+form_roompasswordcheck = resource_path('ui/room_passwd.ui')
 form_roompasswordcheckwindow = uic.loadUiType(form_roompasswordcheck)[0]
 
-form_chatroom = resource_path('chat_room.ui')
+form_chatroom = resource_path('ui/chat_room.ui')
 form_chatroomwindow = uic.loadUiType(form_chatroom)[0]
 
 
